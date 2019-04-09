@@ -20,6 +20,7 @@ public class Producer {
     public String DEFAULT_URL = ActiveMQConnectionFactory.DEFAULT_BROKER_BIND_URL;
     public static final String QUEUE_NAME = "test.queue";
     public static final String TOPIC_QUEUE_NAME = "topictestqueue";
+    public static final String DUABLE_TOPIC_QUEUE_NAME = "duabletopictestqueue";
     public static final String OTHER_QUEUE_NAME = "test.otherqueue";
     public static final String MANEY_QUEUE_NAME = "test.queue,test.otherqueue,topic://topictestqueue";
 
